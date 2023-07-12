@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+        <div  class="calculator">
+          <input type="text" class="value" id="result"/>
+          <button class="num clear" onclick="clr()"><i>C</i></button >
+          <button class="num" onclick="calculate(`/`)">/</button>
+          <button class="num" onclick="calculate(`*`)">*</button>
+          <button class="num" onclick="calculate(7)">7</button>
+          <button class="num" onclick="calculate(8)">8</button>
+          <button class="num" onclick="calculate(9)">9</button>
+          <button class="num" onclick="calculate(`-`)">-</button>
+          <button class="num" onclick="calculate(4)">4</button>
+          <button class="num" onclick="calculate(5)">5</button>
+          <button class="num" onclick="calculate(6)">6</button>
+          <button class="num plus" onclick="calculate(`+`)">+</button >
+          <button class="num" onclick="calculate(1)">1</button>
+          <button class="num" onclick="calculate(2)">2</button>
+          <button class="num" onclick="calculate(3)">3</button>
+          <button class="num" onclick="calculate(0)">0</button>
+          <button class="num" onclick="calculate(`.`)">.</button>
+          <button class="num del"  onclick="del()">Del</button>
+          <button class="num equal" onclick="result()">=</button >
+          </div>
+        <script src="./calculator.js"></script>
+      </div>
+
+    
+</body>
+</html>
